@@ -49,9 +49,3 @@ for week, training_weights in current_program.items():
 		print("{} {}".format(exercises[exercise_name], training_weight))
 	if int(week) < program_duration:
 		print("\n\n")
-
-	# print("{} of training".format(week))
-	# print("Bench Press    {}".format(weights["bench_press"]))
-	# print("Squat          {}".format(weights["squat"]))
-	# print("Overhead Press {}".format(weights["overhead_press"]))
-	# print("Deadlift       {}\n\n".format(weights["deadlift"]))
